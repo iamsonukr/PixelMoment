@@ -3,7 +3,7 @@
 .services{
     // max-width: 1200px;
     background: #f9f9f9;
-    height: 100vh !important;
+    height: 100% !important;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -71,7 +71,7 @@
                 // border-radius: 50px;
                 object-fit: cover;
                 @include mobile{
-                    width: 200px;
+                    // width: 200px;
                     // height: 50px;
                 }
             }
@@ -110,6 +110,7 @@
             flex-direction: column;
             width: 100%;
         }
+        
 
         .box{
             padding: 50px;
@@ -118,6 +119,10 @@
             flex-direction: column;
             justify-content: space-between;
             width: 50%;
+
+            
+           
+            
             @include mobile{
                 border: none;
                 align-items: center;
@@ -129,6 +134,37 @@
                 }
             }
         }
+
+        .box:hover{
+            p{
+
+                color: white;
+            }
+            h2{
+                color: white;
+            }
+        }
+
+        
+
+        .portrait:hover{
+            background-image: url('../../../public/portrait.png');
+            background-size: cover;           
+        }
+        .event:hover{
+            background-image: url('../../../public/event.png');
+            background-size: cover;           
+        }
+        .commerce:hover{
+            background-image: url('../../../public/commer.png');
+            background-size: cover;           
+        }
+        .video:hover{
+            background-image: url('../../../public/video-production.png');
+            background-size: cover;           
+        }
+
+        
        
         button{
             padding: 10px;

@@ -41,12 +41,12 @@ function Services() {
             
 
             <motion.div className="listContainer" variants={variants}>
-                <motion.div className="box" whileHover={{ backgroundColor: "white", color: "#1A1A1A" }}>
+                <motion.div className="box portrait" whileHover={{ backgroundColor: "white", color: "#1A1A1A" , scale:1.1}}>
                     <h2>Portrait Photography</h2>
                     <p>Professional portrait sessions capturing your best angles. Perfect for individuals, families, and corporate headshots. Using state-of-the-art equipment to ensure stunning results.</p>
                     {/* <button>Learn More</button> */}
                 </motion.div>
-                <motion.div className="box" whileHover={{ backgroundColor: "white", color: "#1A1A1A" }}>
+                <motion.div className="box event" whileHover={{ backgroundColor: "white", color: "#1A1A1A" , scale:1.1 }}>
                     <h2>Event Coverage</h2>
                     <p>Comprehensive event photography and videography services. From weddings to corporate events, we capture every meaningful moment with attention to detail.</p>
                     {/* <button>Learn More</button> */}
@@ -56,12 +56,12 @@ function Services() {
             
             <motion.div className='listContainer' variants={variants} >
 
-                <motion.div className="box" whileHover={{ backgroundColor: "white", color: "#1A1A1A" }}>
+                <motion.div className="box commerce" whileHover={{ backgroundColor: "white", color: "#1A1A1A" , scale:1.1 }}>
                     <h2>Commercial Shoots</h2>
                     <p>Professional product photography and promotional videos for your business. High-quality visuals that showcase your products and services in the best light.</p>
                     {/* <button>Learn More</button> */}
                 </motion.div>
-                <motion.div className="box" whileHover={{ backgroundColor: "white", color: "#1A1A1A" }}>
+                <motion.div className="box video" whileHover={{ backgroundColor: "white", color: "#1A1A1A" , scale:1.1 }}>
                     <h2>Video Production</h2>
                     <p>Full-service video production including pre-production planning, shooting, and post-production editing. Creating compelling visual stories for your brand.</p>
                     {/* <button>Learn More</button> */}

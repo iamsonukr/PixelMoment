@@ -16,7 +16,7 @@ function Parallax({type}) {
         animate:{
             x:"-220%",
             transition:{
-                repeat:Infinity,
+                repeat:Infinity, 
                 repeatType:"mirror",
                 duration:20,
             }
@@ -27,15 +27,16 @@ function Parallax({type}) {
         <div className='parallax' ref={ref}
             style={{
                 background: type === "services"
-                    ? "linear-gradient(180deg,#111132, #0c0c1d)"
+                    ? "linear-gradient(180deg,#ffffff, #0a0041)"
                     : "linear-gradient(180deg,#111132, #505064)"
             }}>
-            <motion.h1 style={{y:yText}}>{type === "services" ? "What We Do ?" : "What We Did ?"}</motion.h1>
-            <motion.div  className="mountains"></motion.div>
+            <motion.h1 style={{y:yText}}>{type === "services" ? "Professional Photoshoots & Stunning Videography for Every Occasion." : "Capture the Magic of Your Special Day with Us."}</motion.h1>
+            <motion.div  className={type === "services" ? "flowers2" : "flowers"}></motion.div>
 
-            {/* <motion.div variants={sliderVariants} initial="initial" animate="animate" style={{y:yBg, backgroundImage:`url(${type=="services"?"/planets.png":"/sun.png"})`}} className="planets"></motion.div> */}
-            <motion.div style={{y:yBg, backgroundImage:`url(${type==="services"?"/planets.png":"/sun.png"})`}} className="planets"></motion.div>
-            <motion.div style={{x:yBg}} className="stars"></motion.div>
+            <motion.div variants={sliderVariants} initial="initial" animate="animate" style={{y:yBg, backgroundImage:`url(${type=="services"?"/planets.png":"/sun.png"})`}} className="planets"></motion.div>
+
+            <motion.div style={{y:yBg, backgroundImage:`url(${type==="services"?"/couple.png":"/couple-2.png"})`}} className={type==="services"?"couple":"ind-couple"}></motion.div>
+            <motion.div style={{x:yBg}} className="couple-bg"></motion.div>
         </div>
     )
 }
