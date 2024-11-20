@@ -127,6 +127,9 @@
                 border: none;
                 align-items: center;
                 padding: 20px;
+                width: 100%;
+                text-align: center;
+                border: 1px solid black;
             }
             p{
                 @include mobile{
