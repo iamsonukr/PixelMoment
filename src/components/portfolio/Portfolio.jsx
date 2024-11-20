@@ -75,7 +75,7 @@ const Single = ({ item }) => {
             </motion.div>
             <motion.div className="textContainer" style={{ y: textY }}>
               <h2>{item.title}</h2>
-              <p>{item.desc}</p>
+              <p className='discription'>{item.desc}</p>
               <div className="metrics">
                 {Object.entries(item.metrics).map(([key, value]) => (
                   <div key={key} className="metric">
