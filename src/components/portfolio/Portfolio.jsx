@@ -7,7 +7,7 @@ const portfolioItems = [
     id: 1,
     title: "Wedding Photography",
     category: "Events",
-    img: "/wedding.jpg",
+    img: "/wedding-work.png",
     desc: "Capturing beautiful moments of celebration and love. Our wedding photography service focuses on both candid emotions and styled shots, ensuring every precious moment is preserved forever.",
     metrics: {
       location: "Grand Plaza Hotel",
@@ -19,7 +19,7 @@ const portfolioItems = [
     id: 2,
     title: "Corporate Brand Story",
     category: "Commercial",
-    img: "/wedding.jpg",
+    img: "/corporate-work.png",
     desc: "A comprehensive visual branding project for TechCorp, including executive portraits, office culture shots, and product photography that elevated their brand image.",
     metrics: {
       location: "TechCorp HQ",
@@ -31,7 +31,7 @@ const portfolioItems = [
     id: 3,
     title: "Fashion Look Book",
     category: "Commercial",
-    img: "/wedding.jpg",
+    img: "/fashion-work.png",
     desc: "Professional fashion photography for Season's latest collection. Studio and location shoots combining dramatic lighting with dynamic poses to showcase the designs.",
     metrics: {
       location: "Urban Studio",
@@ -43,7 +43,7 @@ const portfolioItems = [
     id: 4,
     title: "Nature Documentary",
     category: "Videography",
-    img: "/wedding.jpg",
+    img: "/wildlife-work.png",
     desc: "A stunning 4K nature documentary capturing local wildlife and landscapes. Combining drone footage with ground-level cinematography for a comprehensive perspective.",
     metrics: {
       location: "National Park",

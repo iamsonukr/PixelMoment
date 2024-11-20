@@ -30,7 +30,7 @@ function Parallax({type}) {
                     ? "linear-gradient(180deg,#ffffff, #0a0041)"
                     : "linear-gradient(180deg,#111132, #505064)"
             }}>
-            <motion.h1 style={{y:yText}}>{type === "services" ? "Professional Photoshoots & Stunning Videography for Every Occasion." : "Capture the Magic of Your Special Day with Us."}</motion.h1>
+            <motion.h1 style={{y:yText}}>{type === "services" ? "Professional Photoshoots for Every Occasion." : "Capture the Magic of Your Special Day with Us."}</motion.h1>
             <motion.div  className={type === "services" ? "flowers2" : "flowers"}></motion.div>
 
             <motion.div variants={sliderVariants} initial="initial" animate="animate" style={{y:yBg, backgroundImage:`url(${type=="services"?"/planets.png":"/sun.png"})`}} className="planets"></motion.div>
